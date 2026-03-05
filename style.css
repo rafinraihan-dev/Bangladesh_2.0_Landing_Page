@@ -231,6 +231,69 @@ nav button{
    color: #0E0E0E60;
  }
 
+ /* Table Sctionnnnnnnnnnnnnnnnnnn */
+
+ .opinion-section{
+  width:80%;
+  margin:60px auto;
+}
+
+.opinion-section h2{
+  font-size:28px;
+  margin-bottom:20px;
+}
+
+/* Table container */
+
+.table-container{
+  border:1px solid #dcdcdc;
+  border-radius:4px;
+  overflow:hidden;
+  background:white;
+}
+
+/* Header */
+
+.table-header{
+  display:flex;
+  justify-content:space-between;
+  background:#b7d1c3;
+  padding:15px 20px;
+  font-weight:bold;
+}
+
+/* Rows */
+
+.table-row{
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  padding:18px 20px;
+  border-top:1px solid #e6e6e6;
+}
+
+/* Columns */
+
+.col-question{
+  width:75%;
+  font-size:14px;
+}
+
+.col-opinion{
+  width:25%;
+  text-align:right;
+}
+
+/* Dropdown */
+
+select{
+  padding:8px 12px;
+  border:1px solid #8aa79b;
+  background:#d5e7dd;
+  border-radius:4px;
+  cursor:pointer;
+}
+
 
 
 
